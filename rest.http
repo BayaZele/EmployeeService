@@ -1,0 +1,42 @@
+GET http://localhost:3000/employee
+
+### create a product
+POST http://localhost:3000/employee
+Content-Type: application/json
+
+{
+    "id":7,
+    "firstname":"Ayele",
+    "middlename":"Mekite",
+    "lastname":"Degu",
+    "hireDate": "02/14/2021",
+    "Position":"Engineer",
+    "Grade":7,
+    "step":3,
+    "basicSalary":58400
+}
+### create a found by id
+GET  http://localhost:3000/employee/id
+### create a upadated
+PATCH  http://localhost:3000/employee/id
+### deleted 
+DELETE http://localhost:3000/employee/id
+
+###
+DELETE http://localhost:3000/
+###
+GET  http://localhost:3000/test/102154/behailu
+###
+POST http://localhost:3000/test
+Content-Type: application/json
+
+{
+    "id":"00254",
+    "name":"Lil baya"
+}
+###
+POST http://localhost:3000/test
+Content-Type: application/x-www-form-urlencoded
+
+id=45485&name="Baya Eshe"
+   
