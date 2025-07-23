@@ -4,7 +4,7 @@
   "description": "EmployeeApi",
   "main": "app.js",
   "scripts": {
-    "build": "nodemon app.js",
+    "build": "app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Baya",
